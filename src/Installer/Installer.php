@@ -143,7 +143,7 @@ abstract class Installer
         $cmd = (
             $this->composerCmd . ' init ' .
             ' --no-interaction ' .
-            ' --name=jupyter-php-instance ' .
+            ' --name=Jupyter-PHP/instance ' .
             ' --type=project ' .
             ' --working-dir="' . $pkgsDir . '" ' .
             ' --require=litipk/jupyter-php=0.* '
