@@ -10,7 +10,8 @@ require_once __DIR__ . '/bootstrap.php';
 
 
 use Litipk\JupyterPhpInstaller\Console\Application;
-
+// use Symfony\Component\Console\Input\ArgvInput;
 
 $application = new Application();
 $application->run();
+// $application->run(new ArgvInput(['dummy','install','--verbose']));
