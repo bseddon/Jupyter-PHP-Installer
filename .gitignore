@@ -8,3 +8,4 @@ composer.lock
 jupyter-php-installer.phar
 jupyter-php-installer.phar.pubkey
 .vscode/
+*.phar
